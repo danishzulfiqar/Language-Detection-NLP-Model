@@ -14,13 +14,13 @@ Welcome to the Language Detector Model repository! This advanced machine learnin
 
 Our model covers a diverse set of languages organized into three main groups:
 
-| European Languages | Asian Languages | Middle Eastern Languages |
+| European Languages | Asian Languages | Other Regions Languages |
 |--------------------|-----------------|--------------------------|
 | 🇬🇧 English        | 🇮🇳 Malayalam   | 🇸🇦 Arabic                |
 | 🇫🇷 French         | 🇮🇳 Hindi       | 🇹🇷 Turkish               |
-| 🇪🇸 Spanish        | 🇮🇳 Tamil       | 🇵🇰 Urdu                 |
+| 🇪🇸 Spanish        | 🇮🇳 Tamil       |                          |
 | 🇵🇹 Portuguese     | 🇮🇳 Kannada     |                          |
-| 🇮🇹 Italian        |                 |                          |
+| 🇮🇹 Italian        |   🇵🇰 Urdu       |                          |
 | 🇷🇺 Russian        |                 |                          |
 | 🇸🇪 Swedish        |                 |                          |
 | 🇳🇱 Dutch          |                 |                          |
