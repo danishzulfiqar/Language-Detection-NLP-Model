@@ -14,7 +14,6 @@
 
 <p align="center"><img src="assets/pipeline.svg" alt="Pipeline: Wikipedia corpus → text normalisation → bag of words → Multinomial Naïve Bayes → FastAPI" width="100%"></p>
 
-
 > 📘 **Full write-up with figures:** [danishzulfiqar-projects.vercel.app/language-detection](https://danishzulfiqar-projects.vercel.app/language-detection)
 
 ## At a glance
