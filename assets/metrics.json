@@ -1,0 +1,127 @@
+{
+  "samples": 11623,
+  "languages": 18,
+  "vocabulary": 38837,
+  "test_accuracy": 0.9789,
+  "macro_f1": 0.9825,
+  "weighted_f1": 0.9792,
+  "cv5_mean": 0.9787,
+  "cv5_std": 0.0035,
+  "accuracy_by_length": {
+    "1\u20133": 0.8205,
+    "4\u20137": 0.9861,
+    "8\u201315": 0.9982,
+    "16\u201330": 0.9987,
+    "31+": 1.0
+  },
+  "per_language": {
+    "English": {
+      "precision": 0.8853,
+      "recall": 0.9967,
+      "f1": 0.9377,
+      "support": 302
+    },
+    "Danish": {
+      "precision": 1.0,
+      "recall": 0.9158,
+      "f1": 0.956,
+      "support": 95
+    },
+    "Turkish": {
+      "precision": 1.0,
+      "recall": 0.9263,
+      "f1": 0.9617,
+      "support": 95
+    },
+    "Arabic": {
+      "precision": 1.0,
+      "recall": 0.9533,
+      "f1": 0.9761,
+      "support": 107
+    },
+    "Greek": {
+      "precision": 1.0,
+      "recall": 0.9589,
+      "f1": 0.979,
+      "support": 73
+    },
+    "Kannada": {
+      "precision": 1.0,
+      "recall": 0.9595,
+      "f1": 0.9793,
+      "support": 74
+    },
+    "Swedish": {
+      "precision": 0.9853,
+      "recall": 0.9781,
+      "f1": 0.9817,
+      "support": 137
+    },
+    "Russian": {
+      "precision": 1.0,
+      "recall": 0.9712,
+      "f1": 0.9854,
+      "support": 139
+    },
+    "Italian": {
+      "precision": 0.986,
+      "recall": 0.986,
+      "f1": 0.986,
+      "support": 143
+    },
+    "Tamil": {
+      "precision": 1.0,
+      "recall": 0.9787,
+      "f1": 0.9892,
+      "support": 94
+    },
+    "German": {
+      "precision": 0.9829,
+      "recall": 0.9957,
+      "f1": 0.9892,
+      "support": 231
+    },
+    "Portuguese": {
+      "precision": 1.0,
+      "recall": 0.9809,
+      "f1": 0.9904,
+      "support": 157
+    },
+    "French": {
+      "precision": 0.9905,
+      "recall": 0.9905,
+      "f1": 0.9905,
+      "support": 210
+    },
+    "Dutch": {
+      "precision": 1.0,
+      "recall": 0.9851,
+      "f1": 0.9925,
+      "support": 134
+    },
+    "Spanish": {
+      "precision": 1.0,
+      "recall": 0.9884,
+      "f1": 0.9942,
+      "support": 173
+    },
+    "Malayalam": {
+      "precision": 1.0,
+      "recall": 0.9917,
+      "f1": 0.9958,
+      "support": 120
+    },
+    "Hindi": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 12
+    },
+    "Urdu": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 29
+    }
+  }
+}

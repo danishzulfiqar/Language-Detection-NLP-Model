@@ -25,7 +25,7 @@ le = LabelEncoder()
 
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
-    return templates.TemplateResponse("home.html", {"request": request})
+    return templates.TemplateResponse(request, "home.html")
 
 @app.post("/predict", response_class=HTMLResponse)
 async def predict(request: Request, text: str = Form(...)):
@@ -54,11 +54,9 @@ async def predict(request: Request, text: str = Form(...)):
     my_pred = le.inverse_transform(my_pred)
 
     return templates.TemplateResponse(
-        "home.html", 
-        {
-            "request": request,
-            "pred": f"Language: {my_pred[0]}"
-        }
+        request,
+        "home.html",
+        {"pred": f"Language: {my_pred[0]}"},
     )
 
 # predict text
