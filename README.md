@@ -4,6 +4,7 @@
 
 **A lightweight, interpretable classifier that identifies 18 languages across eight writing systems, trained on a Wikipedia corpus collected for this project and served through FastAPI.**
 
+[![Documentation](https://img.shields.io/badge/Documentation-Read%20the%20project%20page-1d2836?logo=readthedocs&logoColor=white)](https://danishzulfiqar-projects.vercel.app/language-detection)
 ![Python](https://img.shields.io/badge/Python-3.10+-305b8a?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-MultinomialNB-b47b40?logo=scikitlearn&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-service-5f8a6e?logo=fastapi&logoColor=white)
@@ -12,6 +13,9 @@
 </div>
 
 <p align="center"><img src="assets/pipeline.svg" alt="Pipeline: Wikipedia corpus → text normalisation → bag of words → Multinomial Naïve Bayes → FastAPI" width="100%"></p>
+
+
+> 📘 **Full write-up with figures:** [danishzulfiqar-projects.vercel.app/language-detection](https://danishzulfiqar-projects.vercel.app/language-detection)
 
 ## At a glance
 
